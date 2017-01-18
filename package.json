@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "fbjs": "^0.8.7",
-    "immutable": "~3.7.4",
     "object-assign": "^4.1.0"
   },
   "peerDependencies": {
+    "immutable": "~3.7.6 || ~3.8.1",
     "react": "^0.14.0 || ^15.0.0-rc",
     "react-dom": "^0.14.0 || ^15.0.0-rc"
   },
@@ -63,6 +63,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.6",
+    "immutable": "~3.7.6",
     "jest": "^15.1.1",
     "react": "^15.0.0-rc.1",
     "react-dom": "^15.0.0-rc.1",
@@ -72,7 +73,7 @@
     "webpack-stream": "^3.0.0"
   },
   "devEngines": {
-    "node": "4.x || 6.x",
+    "node": "4.x || 6.x || 7.x",
     "npm": "2.x || 3.x"
   },
   "jest": {
